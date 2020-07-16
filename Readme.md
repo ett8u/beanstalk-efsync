@@ -6,8 +6,8 @@ Configure parameters like EFS volume, ASSET_SRC_DIR at .ebextensions/00env_param
 
 For EFS mount to work seamlessly, ensure NFS traffic (port 2049) is enabled within default VPC. 
 
-Step by Step Instruction
-1) Create EFS volume via AWS console.
-2) Create security group that allows NFS traffic within VPC
-3) Use the above security group to the created volume's network configuration.
-4) Set the EFS volume's FS id  as FILE_SYSTEM_ID param in 00env_param_init.config
+#Step by Step Instruction
+1. Create EFS volume via AWS console.
+2. Create security group that allows NFS traffic within VPC
+3. Use the above security group to the created volume's network configuration.
+4. Set the EFS volume's FS id  as FILE_SYSTEM_ID param in 00env_param_init.config
