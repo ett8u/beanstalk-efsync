@@ -11,5 +11,6 @@ For EFS mount to work seamlessly, ensure NFS traffic (port 2049) is enabled with
 2. Create EFS volume via AWS console.
 3. Use the above security group to the created volume's network configuration.
 4. Set the EFS volume's FS id  as FILE_SYSTEM_ID param in 00env_param_init.config available under the folder .ebextensions.
+
 [Detailed Steps with Screenshots](docs/EFSCreate.md)
 
