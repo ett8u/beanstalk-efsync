@@ -68,7 +68,7 @@ You can see your new efs in the File Systems list
 
 3)Select the "Network" tab
 
-![](s20_EFSNetworkTab.png)
+![](S20_EFSNetworkTab.png)
 
 4)Click on "Manage"
 
