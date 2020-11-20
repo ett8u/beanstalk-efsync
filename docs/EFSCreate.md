@@ -27,7 +27,7 @@ Click on "Add rule"
 
 ![Add Rule](s16_createsecuritygroup6.png)
 
-In the Inbound rule1 that gets added, select "NFS" from the dropdown for the "Type" field and "172.0.0.0/24" for the Source field. 
+In the Inbound rule1 that gets added, select "NFS" from the dropdown for the "Type" field and "172.16.0.0/12" for the Source field. 
 
 Scroll down further and click on "Create security group"
 
